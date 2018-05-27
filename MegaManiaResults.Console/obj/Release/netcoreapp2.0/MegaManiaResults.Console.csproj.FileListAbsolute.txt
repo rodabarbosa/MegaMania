@@ -1,0 +1,14 @@
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Console.deps.json
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Console.runtimeconfig.json
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Console.runtimeconfig.dev.json
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Console.dll
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Console.pdb
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Core.dll
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\bin\Release\netcoreapp2.0\MegaManiaResults.Core.pdb
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.csprojAssemblyReference.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.csproj.CoreCompileInputs.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.AssemblyInfoInputs.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.AssemblyInfo.cs
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.csproj.CopyComplete
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.dll
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.0\MegaManiaResults.Console.pdb
