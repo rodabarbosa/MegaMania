@@ -1,7 +1,6 @@
 C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\bin\Debug\netcoreapp2.0\MegaManiaResults.Core.deps.json
 C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\bin\Debug\netcoreapp2.0\MegaManiaResults.Core.dll
 C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Debug\netcoreapp2.0\MegaManiaResults.Core.csprojAssemblyReference.cache
-C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Debug\netcoreapp2.0\MegaManiaResults.Core.csproj.CoreCompileInputs.cache
 C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Debug\netcoreapp2.0\MegaManiaResults.Core.AssemblyInfoInputs.cache
 C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Debug\netcoreapp2.0\MegaManiaResults.Core.AssemblyInfo.cs
 C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\bin\Debug\netcoreapp2.0\MegaManiaResults.Core.pdb

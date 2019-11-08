@@ -1,47 +1,72 @@
 ﻿using MegaManiaResults.Core;
 using System;
+using System.Linq;
 
 namespace megamaniaresults
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            DateTime start = DateTime.Now;
-            Console.WriteLine("Esta aplicação irá os número mais sorteados da Magamania Paraná");
-            Console.WriteLine("Endereço dos resultados:");
-            try
-            {
-                string url = "http://adm.megamaniadasorte.com.br/consultaresultado/index.php";
-                Console.WriteLine(url);
-                Console.WriteLine();
+	internal static class Program
+	{
+#pragma warning disable RCS1163 // Unused parameter.
+#pragma warning disable IDE0060 // Remove unused parameter
 
-                var quantity = 30;
-                var manipulator = new WebManipulator(url);
-                manipulator.LoadResults();
-                foreach (var key in manipulator.Results.Keys)
-                {
-                    Console.WriteLine($"{key}: {manipulator.Results[key]}");
-                }
+		private static void Main(string[] args)
+#pragma warning restore IDE0060 // Remove unused parameter
+#pragma warning restore RCS1163 // Unused parameter.
+		{
+			DateTime start = DateTime.Now;
+			Console.WriteLine("Esta aplicação irá os número mais sorteados da Magamania Paraná");
+			Console.WriteLine("Endereço dos resultados:");
 
+			try
+			{
+#pragma warning disable S1075 // URIs should not be hardcoded
+				const string url = "http://adm.megamaniadasorte.com.br/consultaresultado/index.php";
+#pragma warning restore S1075 // URIs should not be hardcoded
+				Console.WriteLine($"{url}\n");
 
-                var numbers = manipulator.GetTopNumbers(quantity);
+				var quantity = 30;
+				IWebManipulator manipulator = new WebManipulator(url);
+				manipulator.LoadResults();
 
-                Console.WriteLine(string.Format("Os {0} números mais sorteados:", quantity));
-                Console.WriteLine("Número \t Quantidade");
-                quantity = numbers.Length;
-                for (var i = 0; i < quantity; i++)
-                {
-                    Console.WriteLine(string.Format("{0} \t {1}", numbers[i], i));
-                }
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            Console.WriteLine();
-            Console.WriteLine("Tempo consumido: {0}", (DateTime.Now-start));
-            Console.Read();
-        }
-    }
+				var test = manipulator.Results
+							.OrderByDescending(x => x.Value)
+							.ToArray();
+
+				int count = 0;
+				foreach (var item in test)
+				{
+					count++;
+					Console.Write($"{item.Key}\t{item.Value}\t\t");
+
+					if (count > 4)
+					{
+						Console.Write("\n");
+						count = 0;
+					}
+				}
+
+				Console.WriteLine("\n\nTop {0}", quantity);
+				var numbers = manipulator.GetTopNumbers(quantity).OrderBy(x => x);
+				foreach (int number in numbers)
+				{
+					count++;
+					Console.Write("{0}\t", number);
+
+					if (count > 10)
+					{
+						Console.Write("\n");
+						count = 0;
+					}
+				}
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.StackTrace);
+				Console.WriteLine(ex.Message);
+			}
+			Console.WriteLine();
+			Console.WriteLine("Tempo consumido: {0}\n", DateTime.Now - start);
+			Console.Read();
+		}
+	}
 }

@@ -1,0 +1,4 @@
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.1\MegaManiaResults.Console.csprojAssemblyReference.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.1\MegaManiaResults.Console.csproj.CoreCompileInputs.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.1\MegaManiaResults.Console.AssemblyInfoInputs.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Console\obj\Release\netcoreapp2.1\MegaManiaResults.Console.AssemblyInfo.cs

@@ -1,0 +1,3 @@
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Release\netcoreapp2.1\MegaManiaResults.Core.csproj.CoreCompileInputs.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Release\netcoreapp2.1\MegaManiaResults.Core.AssemblyInfoInputs.cache
+C:\Projetos\DOTNET\MegaMania\MegaManiaResults.Core\obj\Release\netcoreapp2.1\MegaManiaResults.Core.AssemblyInfo.cs
